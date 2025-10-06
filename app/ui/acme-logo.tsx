@@ -8,7 +8,7 @@ export default function AcmeLogo() {
         <SparklesIcon className="h-5 w-5" />
         <span>Portfolio</span>
       </div>
-      <p className="text-3xl font-semibold leading-none md:text-4xl">Jonas Wahlberg</p>
+      <p className="text-3xl font-semibold leading-none md:text-4xl">William Wahlberg</p>
     </div>
   );
 }
