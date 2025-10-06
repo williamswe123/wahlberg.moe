@@ -1,13 +1,14 @@
-import { GlobeAltIcon } from '@heroicons/react/24/outline';
+import { SparklesIcon } from '@heroicons/react/24/solid';
 import { lusitana } from '@/app/ui/fonts';
 
 export default function AcmeLogo() {
   return (
-    <div
-      className={`${lusitana.className} flex flex-row items-center leading-none text-white`}
-    >
-      <GlobeAltIcon className="h-12 w-12 rotate-[15deg]" />
-      <p className="text-[44px]">Acme</p>
+    <div className={`${lusitana.className} flex flex-col gap-2 text-white`}>
+      <div className="flex items-center gap-2 text-sm uppercase tracking-[0.35em]">
+        <SparklesIcon className="h-5 w-5" />
+        <span>Portfolio</span>
+      </div>
+      <p className="text-3xl font-semibold leading-none md:text-4xl">Jonas Wahlberg</p>
     </div>
   );
 }
