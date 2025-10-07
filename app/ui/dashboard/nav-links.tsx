@@ -4,21 +4,24 @@ import {
   HomeIcon,
   SparklesIcon,
   RocketLaunchIcon,
+  DocumentTextIcon,
+  
 } from '@heroicons/react/24/outline';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import clsx from 'clsx';
 
 const links = [
-  { name: 'About', href: '/dashboard', icon: HomeIcon },
+  { name: 'About', href: '/home/about', icon: HomeIcon },
+  { name: 'CV', href: '/home/cv', icon: DocumentTextIcon },
   {
-    name: 'Project Aurora',
-    href: '/dashboard/project-aurora',
+    name: 'Project e Aurora',
+    href: '/projects/project-aurora',
     icon: SparklesIcon,
   },
   {
     name: 'Project Meridian',
-    href: '/dashboard/project-meridian',
+    href: '/projects/project-meridian',
     icon: RocketLaunchIcon,
   },
 ];

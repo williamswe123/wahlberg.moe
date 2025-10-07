@@ -3,7 +3,7 @@ import SideNav from '@/app/ui/dashboard/sidenav';
 export default function Layout({ children }: { children: React.ReactNode }) {
   return (
     <div className="flex min-h-screen flex-col bg-slate-50 md:flex-row md:overflow-hidden">
-      <div className="w-full flex-none border-b border-slate-200 bg-white md:h-screen md:w-72 md:border-b-0 md:border-r">
+      <div className="w-full flex-none border-b border-slate-200 bg-white md:min-h-screen md:w-72 md:border-b-0 md:border-r">        
         <SideNav />
       </div>
       <div className="flex-grow p-6 md:overflow-y-auto md:p-12">

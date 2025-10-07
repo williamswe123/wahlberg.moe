@@ -4,17 +4,17 @@ import Link from "next/link";
 const highlights = [
   {
     title: 'Images of Saga',
-    href: '/saga',
+    href: '/home/saga',
     image: '/saga/saga_card.jpg',
   },
   {
     title: 'Images of my Car!',
-    href: '/mr2',
+    href: '/home/mr2',
     image: '/mr2/mr2_card.jpg',
   },
    {
     title: 'Drifting GP JPN 2024',
-    href: '/driftgp',
+    href: '/home/driftgp',
     image: '/driftgp/driftgp_card.jpg',
   },
 ];
