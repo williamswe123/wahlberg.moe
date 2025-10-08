@@ -5,7 +5,7 @@ import {
   SparklesIcon,
   RocketLaunchIcon,
   DocumentTextIcon,
-  
+  CursorArrowRaysIcon,
 } from '@heroicons/react/24/outline';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
@@ -23,6 +23,11 @@ const links = [
     name: 'Project Meridian',
     href: '/projects/project-meridian',
     icon: RocketLaunchIcon,
+  },
+  {
+    name: 'Cookie Clicker',
+    href: '/projects/cookie-clicker',
+    icon: CursorArrowRaysIcon,
   },
 ];
 
