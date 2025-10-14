@@ -20,8 +20,8 @@ const links = [
     icon: SparklesIcon,
   },
   {
-    name: 'Project Meridian',
-    href: '/projects/project-meridian',
+    name: 'Commanders',
+    href: '/projects/commanders',
     icon: RocketLaunchIcon,
   },
   {
