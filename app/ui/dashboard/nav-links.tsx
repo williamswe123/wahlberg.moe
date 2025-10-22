@@ -15,8 +15,8 @@ const links = [
   { name: 'About', href: '/home/about', icon: HomeIcon },
   { name: 'CV', href: '/home/cv', icon: DocumentTextIcon },
   {
-    name: 'Project e Aurora',
-    href: '/projects/project-aurora',
+    name: 'Bell Curve Lab',
+    href: '/projects/bell-curve-lab',
     icon: SparklesIcon,
   },
   {
